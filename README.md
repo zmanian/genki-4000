@@ -15,7 +15,9 @@ The network will do a quick start, and everyone can join in later by creating a 
 
 ### Genesis collection
 
-Submit your gentx at https://genesis.certus.one
+DONE
+
+~Submit your gentx at https://genesis.certus.one~
 
 ### Launch (once genesis collection is done)
 

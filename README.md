@@ -25,3 +25,5 @@ Add the following seed nodes:
 
     ed6b6d5019563b40e81ae29c80c712fce7ae68f0@seed01.genki.certus.one:26656
 
+Persistent peers :
+74745f645a7102f519b0a3169d56eb0767f1bfb6@45.77.53.208:26656

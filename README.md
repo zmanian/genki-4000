@@ -23,5 +23,5 @@ Download the final genesis file from `https://raw.githubusercontent.com/certuson
 
 Add the following seed nodes:
 
-    148228bd2d2e155e9edb339a7d664ea1242e6177@seed01.genki.certus.one:26656
+    ed6b6d5019563b40e81ae29c80c712fce7ae68f0@seed01.genki.certus.one:26656
 

@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2018-12-28T06:00:00.000000Z",
+  "genesis_time": "2018-12-28T21:00:00.000000Z",
   "chain_id": "genki-4001",
   "consensus_params": {
     "block_size": {

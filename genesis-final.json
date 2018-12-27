@@ -4314,7 +4314,7 @@
         {
           "operator_address": "cosmosvaloper1xuwcmdvef5xudnyqa9gh5vqlq6ff0meu9v25fe",
           "consensus_pubkey": "cosmosvalconspub1zcjduepqzcsjtmd00g66dqmf28uejh6y90l26w2930nxjfz036qy2y5qtzyqr3t28s",
-          "jailed": true,
+          "jailed": false,
           "status": 0,
           "tokens": "0.9500000000",
           "delegator_shares": "1.0000000000",
@@ -4324,8 +4324,8 @@
             "website": "",
             "details": ""
           },
-          "bond_height": "10622",
-          "unbonding_height": "15623",
+          "bond_height": "0",
+          "unbonding_height": "0",
           "unbonding_time": "2018-12-23T00:53:09.418263754Z",
           "commission": {
             "rate": "1.0000000000",

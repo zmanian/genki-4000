@@ -1,4 +1,4 @@
-# genki-4001
+# genki-4002
 
 Interim community testnet before GoS resumes on Jan 3rd/4th. On Dec 28th, we are attempting a hard fork from block 50,000 of `genki-4000` as was passed in a governance proposal.
 
@@ -15,17 +15,16 @@ The network will do a quick start, and everyone can join in later by creating a 
 
 ## Getting started
 
-### Upgrading from genki-4000
+### Upgrading from genki-4000/genki-4002
 
-We are attempting a hard fork from `genki-4000` on December 28th.
+We are attempting a hard fork from `genki-4000` on December 28th. 
 
-if you were validating on `genki-4000`,
+`genk-4001` ran into a number of issues with Accum update height being set at `50000`. `genki-4002` is the same genesis file with `update_height` zeroed out. The update instructsion will work regardless of wether or not you are updating from `genki-4000` or `genki-4001`.
 
 1. Halt your node.
-2. Consider backing up `$HOME/.gaiad/data`. This will make it possible to restart `genki-4000` if the hard fork state is invalid.
-3. Download the new genesis file from `https://raw.githubusercontent.com/certusone/genki-4000/master/genesis-final.json`
-4. `gaiad unsafe-reset-all`
-5. `gaiad start`
+2. Download the new genesis file from `https://raw.githubusercontent.com/certusone/genki-4000/master/genesis-final.json`
+3. `gaiad unsafe-reset-all`
+4. `gaiad start`
 
 
 

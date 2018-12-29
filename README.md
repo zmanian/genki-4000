@@ -45,3 +45,5 @@ Add the following seed nodes:
     db02715d74e68c48884aad9e9c7dac6bc7f3c7cd@35.224.105.191:26656
 
 
+Persistent peers :
+74745f645a7102f519b0a3169d56eb0767f1bfb6@45.77.53.208:26656

@@ -15,18 +15,16 @@ The network will do a quick start, and everyone can join in later by creating a 
 
 ## Getting started
 
-### Upgrading from genki-4000/genki-4002
+### Upgrading from genki-4000/1 -> genki-4002
 
 We are attempting a hard fork from `genki-4000` on December 28th. 
 
-`genk-4001` ran into a number of issues with Accum update height being set at `50000`. `genki-4002` is the same genesis file with `update_height` zeroed out. The update instructsion will work regardless of wether or not you are updating from `genki-4000` or `genki-4001`.
+`genki-4001` ran into a number of issues with Accum update height being set at `50000`. `genki-4002` is the same genesis file with `update_height` zeroed out. The update instructions will work regardless of whether or not you are updating from `genki-4000` or `genki-4001`.
 
 1. Halt your node.
 2. Download the new genesis file from `https://raw.githubusercontent.com/certusone/genki-4000/master/genesis-final.json`
 3. `gaiad unsafe-reset-all`
 4. `gaiad start`
-
-
 
 ### Genesis collection
 
@@ -41,4 +39,5 @@ Download the final genesis file from `https://raw.githubusercontent.com/certuson
 Add the following seed nodes:
 
     ed6b6d5019563b40e81ae29c80c712fce7ae68f0@seed01.genki.certus.one:26656
-
+    db02715d74e68c48884aad9e9c7dac6bc7f3c7cd@35.224.105.191:26656
+    74745f645a7102f519b0a3169d56eb0767f1bfb6@45.77.53.208:26656
